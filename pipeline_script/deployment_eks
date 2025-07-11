@@ -13,7 +13,7 @@ pipeline {
         stage("Clone GitHub Repository") {
             steps {
                 // Clone the repository containing deployment and service files
-                git branch: 'main', url: 'https://github.com/amazon1/DevopsProject2.git'
+                git branch: 'main', url: 'https://github.com/zakiscoding/amazon-prime.git'
             }
         }
 		
